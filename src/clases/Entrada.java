@@ -1,9 +1,11 @@
+package clases;
+
 import java.util.Objects;
 
 public class Entrada {
     //Atributos de la clase
     public Concierto concierto;
-    enum Tipo {Pista, Grada, VIP}
+    public enum Tipo {Pista, Grada, VIP}
     private Tipo tipoEntrada;
 //Constructor vacío
     public Entrada() {
@@ -49,6 +51,6 @@ public class Entrada {
 //Método para imprimir la información básica de la entrada
     @Override
     public String toString() {
-        return "Entrada de " + getPrecioTotal() + " €";
+        return "clases.Entrada de " + getPrecioTotal() + " €";
     }
 }

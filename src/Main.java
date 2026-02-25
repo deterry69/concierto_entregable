@@ -1,3 +1,6 @@
+import clases.Concierto;
+import clases.Entrada;
+import clases.Usuario;
 import exceptions.*;
 import java.util.ArrayList;
 import java.util.HashMap;

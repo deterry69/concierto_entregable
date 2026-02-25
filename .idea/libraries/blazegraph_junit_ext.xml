@@ -1,0 +1,8 @@
+<component name="libraryTable">
+  <library name="blazegraph.junit.ext" type="repository">
+    <properties maven-id="com.blazegraph:junit-ext:2.1.4" />
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

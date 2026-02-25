@@ -1,14 +1,17 @@
+package clases;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+
 import exceptions.*;
 
 public class Usuario {
-    private String nombre;
-    private int edad;
-    private ArrayList<Entrada> entradasCompradas;
-    private HashSet<Concierto> conciertosAsistidos;
-    private HashMap<Concierto, Integer> valoraciones;
+    public String nombre;
+    public int edad;
+    public ArrayList<Entrada> entradasCompradas;
+    public HashSet<Concierto> conciertosAsistidos;
+    public HashMap<Concierto, Integer> valoraciones;
 
     public Usuario(String nombre, int edad, ArrayList<Entrada> entradasCompradas, HashSet<Concierto> conciertosAsistidos, HashMap<Concierto, Integer> valoraciones) {
         this.nombre = nombre;
@@ -46,5 +49,8 @@ public class Usuario {
 
         this.valoraciones.put(concierto, valoracion);
         System.out.println("Valoracion realizada");
+    }
+    public HashMap<Concierto, Integer> getValoraciones() {
+        return valoraciones;
     }
 }

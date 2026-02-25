@@ -1,3 +1,5 @@
+package clases;
+
 import exceptions.CeroEntradasException;
 import java.util.ArrayList;
 import java.util.Objects;
@@ -8,7 +10,7 @@ public class Concierto {
     public String ciudad;
     public double precioBase;
     public int aforoMaximo;
-    private ArrayList<Entrada> entradasVendidas;
+    public ArrayList<Entrada> entradasVendidas;
     public boolean activo;
 //Constructor con parámetros
     public Concierto(String artista, String ciudad, double precioBase, int aforoMaximo, ArrayList<Entrada> entradasVendidas, boolean activo) {
